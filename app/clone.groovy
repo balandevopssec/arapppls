@@ -1,6 +1,6 @@
 dir('appl'){
-    git{
+    git(
         url: "$AppRepo",
         branch: "$Branch"
-    }
+    )
 }
